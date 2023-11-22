@@ -9,6 +9,10 @@
     text-decoration: none !important;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
 .bg-image {
     /* background-image: url(../images/header-image.png); */
     background-image: url(../images/header-img.png);
