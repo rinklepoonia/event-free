@@ -9,16 +9,10 @@
     text-decoration: none !important;
 }
 
-/* .container {
-    max-width: 1320px;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
 .bg-image {
-    background-image: url(../images/header-image.png);
+    /* background-image: url(../images/header-image.png); */
+    background-image: url(../images/header-img.png);
+    background-repeat: no-repeat;
     /* background-position: center; */
 }
 
@@ -27,18 +21,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-
-.align-item-center {
-    align-items: center;
-}
-
-.justify-content-center {
-    justify-content: center;
-}
-
-.justify-content-left {
-    justify-content: left;
 }
 
 .space-between {
@@ -62,7 +44,7 @@
 }
 
 .my-40-70 {
-    margin-top: 40px;
+    /* margin-top: 40px; */
     margin-bottom: 70px;
 }
 
@@ -101,6 +83,10 @@
 .my-126-141 {
     margin-top: 126px;
     margin-bottom: 141px;
+}
+
+.mr-2 {
+    padding-right: 14px;
 }
 
 .mt-126 {
@@ -243,9 +229,6 @@
     /* z-index: 1; */
 }
 
-
-
-
 .underline-2::before {
     content: '';
     position: absolute;
@@ -267,8 +250,6 @@
     background: #01C8FF;
     /* z-index: 1; */
 }
-
-
 
 .underline-3::before {
     content: '';
@@ -294,7 +275,6 @@
     z-index: 1;
 }
 
-
 .text {
     max-width: 765px;
     font-family: ' Yantramanav', sans-serif;
@@ -306,7 +286,7 @@
     color: #FFFFFF;
 }
 
-.btn {
+.btn2 {
     color: #FFF;
     font-family: 'Poppins',
         sans-serif;
@@ -317,7 +297,7 @@
     border-radius: 28px;
     background: #2C49FE;
     padding: 9px 28px;
-
+    border: none;
 }
 
 .learn-more {
@@ -333,7 +313,6 @@
     padding-top: 12px;
 }
 
-
 .box {
     display: flex;
     align-items: center;
@@ -341,15 +320,7 @@
     /* height: 108px; */
     border-radius: 150px;
     background: rgba(44, 73, 254, 0.74);
-
-    /* max-width: 992px;
-    margin-top: 100px; */
-    /* margin-bottom: 104px; */
 }
-
-/* .Box-25 {
-    width: 25%;
-} */
 
 .icon-text {
     color: #FFF;
@@ -375,12 +346,6 @@
 .btn1 {
 
     padding: 15px 30px;
-
-
-
-
-    /* 
-    min-width: 185px; */
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
@@ -393,8 +358,6 @@
     border: none;
     /* margin-left: 40px; */
 }
-
-
 
 .row {
     display: flex;
@@ -458,14 +421,11 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
-
-
-
 .box-text {
-    color: #FFF;
+    color: #2D3CAE;
     text-align: center;
     font-family: Poppins;
     font-size: 25px;
@@ -473,11 +433,10 @@
     font-weight: 500;
     line-height: normal;
     padding-top: 37px;
-
 }
 
 .box-para {
-    color: #FFF;
+    color: #2D3CAE;
     text-align: center;
     font-family: Poppins;
     font-size: 16px;
@@ -508,33 +467,6 @@
     padding: 15px 16px 16px 15px;
     top: -22%;
 
-
-}
-
-
-
-.box-heading-1 {
-    color: #2C49FE;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    padding-top: 37px;
-}
-
-.box-para-1 {
-    max-width: 220px;
-    color: #2D3CAE;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    margin-left: auto;
-    margin-right: auto;
 
 }
 
@@ -654,8 +586,6 @@
     line-height: normal;
 }
 
-
-
 .sign-up {
     color: #000;
     font-family: Poppins;
@@ -665,9 +595,41 @@
     line-height: normal;
 }
 
-.card {
+.card-1 {
+    border: none;
     margin-top: 130px;
-    margin-bottom: 150px;
+
+}
+
+.card-2 {
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.card-4 {
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.card-2:hover {
+    background-color: #2C49FE;
+}
+
+.card-2:hover>* {
+    color: white;
+}
+
+.card-4:hover {
+    background-color: #2C49FE;
+}
+
+.card-4:hover>* {
+    color: white;
+}
+
+.card-1:hover {
+    box-shadow: 2px 9px 32px 0px rgba(0, 0, 0, 0.06);
 }
 
 .card-box {
@@ -776,6 +738,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
+    padding: 17px 3px;
 
 }
 
@@ -786,11 +749,6 @@
     /* padding: 13px 23px; */
 }
 
-/* .col-12 {
-    width: 100%;
-    padding-left: 12px;
-    padding-right: 12px;
-} */
 article {
     width: 100%;
 }
@@ -810,8 +768,6 @@ article {
         align-items: center;
     }
 
-
-
     label[for="menu-icon"] {
         width: 30px;
         height: 30px;
@@ -821,7 +777,6 @@ article {
         position: relative;
         z-index: 2;
         cursor: pointer;
-
     }
 
     label[for="menu-icon"]>span {
@@ -829,16 +784,10 @@ article {
         height: 5px;
         background-color: blueviolet;
         z-index: 2;
-
-
     }
 
     input:checked~ul.sm-screen {
         right: 0;
-    }
-
-    .mt-10 {
-        margin-top: 10px;
     }
 }
 
@@ -855,7 +804,6 @@ article {
         width: 3px;
         background-color: white;
         left: 50%;
-
     }
 
     .box::before {
@@ -866,10 +814,8 @@ article {
         right: 8px;
         background-color: white;
         top: 50%;
-
     }
 }
-
 
 @media (min-width:576px) {
     .col-sm-6 {
@@ -886,12 +832,9 @@ article {
         width: 100%;
     }
 
-
     .sm-mt-10 {
         margin-top: 10px;
     }
-
-
 }
 
 @media (min-width:576px) {
@@ -899,7 +842,6 @@ article {
         margin-top: 48px;
     }
 }
-
 
 @media (min-width:768px) {
     .col-md-4 {
@@ -921,16 +863,11 @@ article {
         padding-left: 12px;
         padding-right: 12px;
     }
+
+    .mt-lg-126 {
+        margin-top: 50px;
+    }
 }
-
-/* .mb-md-0 {
-        margin-bottom: 0;
-    } */
-
-
-
-
-
 
 @media (min-width:992px) {
     .col-lg-3 {
@@ -957,7 +894,6 @@ article {
         padding-right: 12px;
     }
 
-
     .col-lg-7 {
         width: 58.33%;
         padding-left: 12px;
@@ -978,5 +914,17 @@ article {
 
     .w-lg-50 {
         width: 50%;
+    }
+
+    .mb-lg-40 {
+        margin-bottom: 140px;
+    }
+
+    .mr-lg-2 {
+        padding-right: 8px;
+    }
+
+    .mt-lg-126 {
+        margin-top: 126px;
     }
 }
