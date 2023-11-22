@@ -354,7 +354,8 @@
 .btn1 {
 
     padding: 15px 30px;
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -413,7 +414,8 @@
 
 .heading2 {
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -424,7 +426,8 @@
 .text-2 {
     max-width: 633px;
     color: rgba(0, 0, 0, 0.70);
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -435,7 +438,8 @@
 .box-text {
     color: #2D3CAE;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 500;
@@ -446,7 +450,8 @@
 .box-para {
     color: #2D3CAE;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -485,7 +490,8 @@
 .para3 {
     color: #FFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -498,7 +504,8 @@
     max-width: 765px;
     color: #FFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -508,7 +515,8 @@
 
 .numbers {
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 35px;
     font-style: normal;
     font-weight: 700;
@@ -518,7 +526,8 @@
 
 .icons-nme {
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -527,7 +536,8 @@
 
 .sec-3-heading {
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -539,7 +549,8 @@
 .sec-4-heading {
     /* margin-top: 150px; */
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -551,7 +562,8 @@
 .sec-3-text {
     max-width: 543px;
     color: rgba(0, 0, 0, 0.70);
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -560,7 +572,8 @@
 
 .lern-mor {
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -569,7 +582,8 @@
 
 .date {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -578,7 +592,8 @@
 
 .date-down-text {
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -587,7 +602,8 @@
 
 .l-text {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -596,7 +612,8 @@
 
 .sign-up {
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 35px;
     font-style: normal;
     font-weight: 700;
@@ -654,7 +671,8 @@
 
 .sign-btn {
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -669,7 +687,8 @@
     width: 100%;
     margin-bottom: 16px;
     color: rgba(0, 0, 0, 0.70);
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -681,7 +700,8 @@
 
 .textarea {
     color: rgba(0, 0, 0, 0.70);
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -709,7 +729,8 @@
 .footer-text {
     max-width: 346px;
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -718,7 +739,8 @@
 
 .l-heading {
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -728,7 +750,8 @@
 
 .links {
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -741,7 +764,8 @@
     max-width: 43px;
     color: #FFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins',
+        sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 700;
@@ -759,6 +783,16 @@
 
 article {
     width: 100%;
+}
+
+.last-t {
+    color: #FFF;
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 @media (max-width:992px) {
