@@ -377,7 +377,7 @@
 
 .btn1 {
 
-    padding: 15px 30px;
+    /* padding: 15px 30px; */
     font-family: 'Poppins',
         sans-serif;
     font-size: 20px;
@@ -387,7 +387,7 @@
     border-radius: 150px;
     background: #FFF;
     color: #2C49FE;
-    /* padding: 14px 36px; */
+    padding: 14px 36px;
     border: none;
     /* margin-left: 40px; */
 }
@@ -501,7 +501,10 @@
     border: 2px solid #2C49FE;
     border-radius: 50%;
     /* text-align: center; */
-    padding: 15px 16px 16px 15px;
+    /* padding: 15px 16px 16px 15px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     top: -22%;
 
 
@@ -964,6 +967,11 @@ article {
         align-items: center;
         justify-content: center;
     }
+    .col-md-3{
+        width: 25%;
+            padding-left: 12px;
+            padding-right: 12px;
+    }
 }
 
 @media (min-width:992px) {
@@ -1018,9 +1026,10 @@ article {
         margin-bottom: 140px;
     }
 
+    /* 
     .mr-lg-2 {
         padding-right: 8px;
-    }
+    } */
 
     .mt-lg-126 {
         margin-top: 126px;
